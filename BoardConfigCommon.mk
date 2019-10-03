@@ -45,6 +45,9 @@ BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_BCM := true
 # BOARD_HAVE_SAMSUNG_BLUETOOTH := true -- causes issues with bluetooth
 
+# Exclude AudioFX
+TARGET_EXCLUDES_AUDIOFX := true
+
 # Boot animation
 TARGET_BOOTANIMATION_PRELOAD := true
 TARGET_BOOTANIMATION_TEXTURE_CACHE := true
