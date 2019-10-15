@@ -112,10 +112,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     camera.exynos5 \
     libexynoscamera_shim \
-    android.hardware.camera.provider@2.4-impl-legacy \
-    android.hardware.camera.provider@2.4-service \
-    Snap
-
+    android.hardware.camera.provider@2.4-impl.zero \
+    android.hardware.camera.provider@2.4-service
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/external_camera_config.xml:system/vendor/etc/external_camera_config.xml
@@ -280,6 +278,11 @@ PRODUCT_PACKAGES += \
 	android.hardware.radio@1.0 \
 	android.hardware.radio.deprecated@1.0 \
 	modemloader
+
+# APN Definitions - override incomplete/broken lineageos version with Samsung version
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/telephony/apns-conf.xml:system/etc/apns-conf.xml \
+    $(LOCAL_PATH)/configs/telephony/spn-conf.xml:system/etc/spn-conf.xml
 
 # Properties 
 TARGET_SYSTEM_PROP += device/samsung/zero-common/system.prop
