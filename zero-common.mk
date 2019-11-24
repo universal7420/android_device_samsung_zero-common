@@ -275,6 +275,7 @@ PRODUCT_PACKAGES += \
 	libril \
 	libsecril-client \
 	libsecril-client-sap \
+        libsecnativefeature \
 	android.hardware.radio@1.0 \
 	android.hardware.radio.deprecated@1.0 \
 	modemloader
@@ -334,6 +335,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/mediaserver.rc:system/etc/init/mediaserver.rc
+
+# TextClassifier
+PRODUCT_PACKAGES += \
+    textclassifier.bundle1
 
 #
 # Touch
