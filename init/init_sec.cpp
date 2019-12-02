@@ -134,7 +134,7 @@ void vendor_load_properties()
         case G920I:
             /* zerofltexx */
             model = "SM-G920I";
-            device = "zerofltexx";
+            device = "zerofltedv";
             product = "zeroflte";
             break;
 
@@ -142,42 +142,42 @@ void vendor_load_properties()
             /* zerofltektt */
             model = "SM-G920K";
             device = "zerofltektt";
-            product = "zeroflte";
+            product = "zerofltektt";
             break;
 
         case G920L:
             /* zerofltelgt */
             model = "SM-G920L";
             device = "zerofltelgt";
-            product = "zeroflte";
+            product = "zerofltelgt";
             break;
 
         case G920P:
             /* zerofltespr */
             model = "SM-G920P";
             device = "zerofltespr";
-            product = "zeroflte";
+            product = "zerofltespr";
             break;
 
         case G920S:
             /* zeroflteskt */
             model = "SM-G920S";
             device = "zeroflteskt";
-            product = "zeroflte";
+            product = "zeroflteskt";
             break;
 
         case G920T:
             /* zerofltetmo */
             model = "SM-G920T";
             device = "zerofltetmo";
-            product = "zeroflte";
+            product = "zerofltetmo";
             break;
 
         case G920W8:
             /* zerofltecan */
             model = "SM-G920W8";
             device = "zerofltecan";
-            product = "zeroflte";
+            product = "zerofltecan";
             break;
 
         /*
@@ -191,31 +191,31 @@ void vendor_load_properties()
             break;
 
         case G925I:
-            /* zeroltexx */
+            /* zeroltedv */
             model = "SM-G925I";
-            device = "zeroltexx";
+            device = "zeroltedv";
             product = "zerolte";
             break;
 
         case G925J:
-            /* zeroltexx */
+            /* zeroltekdi */
             model = "SCV31";
             device = "zeroltekdi";
-            product = "zerolte";
+            product = "zeroltekdi";
             break;
 
         case G925K:
             /* zeroltektt */
             model = "SM-G925K";
             device = "zeroltektt";
-            product = "zerolte";
+            product = "zeroltektt";
             break;
 
         case G925L:
             /* zeroltelgt */
             model = "SM-G925L";
             device = "zeroltelgt";
-            product = "zerolte";
+            product = "zeroltelgt";
             break;
 
         case G925P:
@@ -229,21 +229,21 @@ void vendor_load_properties()
             /* zerolteskt */
             model = "SM-G925S";
             device = "zerolteskt";
-            product = "zerolte";
+            product = "zerolteskt";
             break;
 
         case G925T:
             /* zeroltetmo */
             model = "SM-G925T";
             device = "zeroltetmo";
-            product = "zerolte";
+            product = "zeroltetmo";
             break;
 
         case G925W8:
             /* zeroltecan */
             model = "SM-G925W8";
             device = "zeroltecan";
-            product = "zerolte";
+            product = "zeroltecan";
             break;
 
         default:
