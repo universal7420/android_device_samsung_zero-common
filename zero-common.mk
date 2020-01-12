@@ -19,12 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Common Overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/zero-common/overlay
-
-ifneq (,$(wildcard lineage-sdk/ ))
-DEVICE_PACKAGE_OVERLAYS += device/samsung/zero-common/overlay-lineage
-else
-DEVICE_PACKAGE_OVERLAYS += device/samsung/zero-common/overlay-aosp
-endif
+DEVICE_PACKAGE_OVERLAYS += device/samsung/zero-common/overlay-rr
 
 ifneq ($(filter zerofltespr zeroltespr,$(TARGET_DEVICE)),)
 DEVICE_PACKAGE_OVERLAYS += device/samsung/zero-common/overlay-cdma
